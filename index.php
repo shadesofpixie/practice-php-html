@@ -13,12 +13,12 @@
   <body>
     <div class="wrap">
         <div class="sidebar">
-          <?php echo include 'inc/learning_quotes.html'; ?>
+          <?php include 'inc/learning_quotes.html'; ?>
         </div>
         <div class="main">
           <h1><?php echo $title; ?></h1>
     
-          <?php echo include 'inc/learning_tips.html'; ?>
+          <?php include 'inc/learning_tips.html'; ?>
 
         </div>
         <div class="footer">Practice Completed: <?php echo date('F j, Y'); ?></div>
