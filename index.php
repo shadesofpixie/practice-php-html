@@ -1,5 +1,10 @@
 <?php 
   $title = 'Top 5 Learning Tips';
+
+  // Practice arrays!!
+  $list = ["Test1", "Test2", "Test3", "Test4"]
+
+
 ?>
 
 <!DOCTYPE html>
@@ -22,6 +27,14 @@
 
         </div>
         <div class="footer">Practice Completed: <?php echo date('F j, Y'); ?></div>
+    </div>
+
+    <div>
+    <?php foreach($list as $key=>$value){ ?>
+    <tr>
+        <td><?php echo $key; ?></td>
+    </tr>
+    <?php } ?>
     </div>
   </body>
 </html>
